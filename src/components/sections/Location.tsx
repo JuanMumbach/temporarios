@@ -28,12 +28,13 @@ export function Location() {
           </div>
           
           <div className="relative aspect-square md:aspect-video lg:aspect-square rounded-2xl overflow-hidden shadow-sm bg-stone-200">
-            {/* A static map placeholder image */}
-            <img 
-              src="https://images.unsplash.com/photo-1524661135-423995f22d0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" 
-              alt="Map Location" 
-              className="w-full h-full object-cover"
+            <iframe 
+              src="https://maps.google.com/maps?q=-29.714776,-57.089452&hl=es&z=15&output=embed"
+              className="w-full h-full border-0"
+              allowFullScreen
               loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="Map Location"
             />
           </div>
         </div>
