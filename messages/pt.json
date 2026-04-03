@@ -1,49 +1,70 @@
 {
   "Metadata": {
-    "title": "Aluguel por Temporada Premium",
-    "description": "Desfrute de uma estadia inesquecível em nossa hospedagem de luxo. Excelente localização, comodidades modernas e conforto garantido."
+    "title": "Alojamento Impecável em Paso de los Libres",
+    "description": "Acomodação nova para até 5 pessoas no centro de Paso de los Libres. Garagem, Ar Condicionado e Wifi."
   },
   "Hero": {
-    "badge": "Aluguel por Temporada",
-    "title": "Seu refúgio perfeito te espera",
-    "description": "Experimente o luxo e conforto no coração da cidade. Reserve hoje e crie memórias inesquecíveis.",
+    "badge": "Aluguel por Temporada - Paso de los Libres",
+    "title": "Seu espaço ideal, novo e impecável",
+    "description": "Um lindo estúdio (monoambiente) central equipado para lhe dar o melhor descanso. 1 cama de casal e 3 camas de solteiro.",
     "cta": "Reservar Agora",
-    "reviews": "de mais de 200 avaliações"
+    "reviews": "Anfitriã destaque: Marcela"
   },
   "Features": {
     "badge": "Comodidades",
-    "title": "Tudo que você precisa",
-    "description": "Projetamos cuidadosamente cada detalhe para garantir que você tenha uma estadia confortável e memorável.",
+    "title": "Tudo para o seu conforto",
+    "description": "Pensamos em cada detalhe para a sua estadia de até 5 pessoas.",
     "items": {
-      "wifi": { "title": "WiFi de Alta Velocidade", "description": "Fique conectado com nossa conexão de fibra de 500Mbps." },
-      "kitchen": { "title": "Cozinha Completa", "description": "Totalmente equipada com eletrodomésticos modernos." },
-      "ac": { "title": "Ar Condicionado", "description": "Controle individual de clima em cada quarto." },
-      "parking": { "title": "Estacionamento Grátis", "description": "Estacionamento seguro disponível durante toda a sua estadia." },
-      "pool": { "title": "Piscina", "description": "Acesso à nossa incrível piscina e área de descanso." },
-      "workspace": { "title": "Espaço de Trabalho", "description": "Mesa e cadeira ergonômica para trabalhar remotamente." }
+      "wifi": {
+        "title": "WiFi",
+        "description": "Conexão de internet rápida e estável."
+      },
+      "ac": {
+        "title": "Ar Condicionado",
+        "description": "Climatização perfeita a todo momento."
+      },
+      "parking": {
+        "title": "Garagem Incluída",
+        "description": "Local seguro para o seu veículo."
+      },
+      "tv": {
+        "title": "TV",
+        "description": "Televisão para o seu entretenimento."
+      },
+      "kitchenette": {
+        "title": "Cozinha Compacta",
+        "description": "Equipada com micro-ondas, frigobar e chaleira elétrica."
+      },
+      "dining": {
+        "title": "Mesa de Jantar",
+        "description": "Espaço confortável para até 5 pessoas comerem juntas e utensílios básicos."
+      }
     }
   },
   "Gallery": {
     "badge": "Galeria",
-    "title": "Faça um tour",
-    "description": "Explore os belos espaços projetados para seu conforto e relaxamento."
+    "title": "Conheça o estúdio",
+    "description": "Convidamos você a ver as nossas instalações, tudo novo e impecável.",
+    "seeMore": "Ver mais imagens"
   },
   "Testimonials": {
-    "title": "O que nossos hóspedes dizem",
-    "description": "Leia sobre as experiências de pessoas que ficaram conosco."
+    "title": "O que os nossos hóspedes dizem",
+    "description": "Experiências reais de quem já nos escolheu no Airbnb.",
+    "review1": "\"Excelente anfitriã, o apartamento é muito bonito e em uma localização muito conveniente.\"",
+    "review2": "\"Lugar lindo, tudo impecável e novo... tem garagem e fica pertinho do centro.\""
   },
   "Location": {
     "badge": "Localização",
-    "title": "Hospedagem perfeita",
-    "description": "Localizado em um bairro seguro e tranquilo, a poucos minutos das principais atrações.",
-    "address": "123 Tranquil Lane, Cityville",
-    "directions": "Ver Rota"
+    "title": "Pleno centro da cidade",
+    "description": "A poucos metros da rua Colón, no coração de Paso de los Libres.",
+    "address": "Zona Centro, Paso de los Libres, Corrientes",
+    "directions": "Ver Localização"
   },
   "BookingCTA": {
-    "title": "Pronto para reservar?",
-    "description": "Contate-nos pelo WhatsApp para verificar a disponibilidade e garantir sua reserva.",
+    "title": "Dúvidas ou reservas?",
+    "description": "Contate a Marcela pelo WhatsApp, responderemos o mais breve possível.",
     "cta": "Reservar via WhatsApp",
-    "whatsappText": "Olá! Estou interessado em me hospedar."
+    "whatsappText": "Olá Marcela! Gostaria de consultar sobre o estúdio."
   },
   "Footer": {
     "rights": "Todos os direitos reservados."

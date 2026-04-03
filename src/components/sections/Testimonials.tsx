@@ -5,19 +5,14 @@ export function Testimonials() {
   const t = useTranslations('Testimonials');
   const reviews = [
     {
-      name: "Sarah Jenkins",
-      date: "October 2024",
-      content: "Absolutely stunning property! The attention to detail in the design made our weekend getaway perfect. Host was very responsive via WhatsApp.",
+      name: "Candela",
+      date: "Córdoba",
+      content: t('review1'),
     },
     {
-      name: "Michael Chen",
-      date: "September 2024",
-      content: "The location can't be beaten. It was incredibly easy to walk to everything we needed, yet peaceful enough at night to sleep perfectly.",
-    },
-    {
-      name: "Emma Williams",
-      date: "August 2024",
-      content: "Immaculately clean and beautifully decorated. It really felt like a luxury hotel but with all the comforts of a private home.",
+      name: "Alina",
+      date: "Tucumán",
+      content: t('review2'),
     }
   ];
 
@@ -29,12 +24,12 @@ export function Testimonials() {
           <p className="text-stone-500 max-w-2xl mx-auto mb-6">{t('description')}</p>
           <div className="flex justify-center items-center gap-2 text-lg font-medium text-stone-900">
             <Star className="w-5 h-5 fill-current text-stone-900" />
-            <span>4.96</span>
-            <span className="text-stone-500 font-normal">· 124 reviews</span>
+            <span>5.0</span>
+            <span className="text-stone-500 font-normal">· Airbnb</span>
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {reviews.map((review, i) => (
             <div key={i} className="p-8 rounded-2xl bg-stone-50 border border-stone-100">
               <div className="flex gap-1 mb-4">

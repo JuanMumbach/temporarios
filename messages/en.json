@@ -1,49 +1,70 @@
 {
   "Metadata": {
-    "title": "Luxury Retreat - Premium Short-Term Rental",
-    "description": "Experience an unforgettable stay at our premium short-term rental. Perfect location, modern amenities, and comfort guaranteed."
+    "title": "Spotless Studio in Paso de los Libres",
+    "description": "Brand new accommodation for up to 5 guests in downtown Paso de los Libres. Garage, AC, and Wifi."
   },
   "Hero": {
-    "badge": "Premium Short-Term Rental",
-    "title": "Your perfect getaway awaits",
-    "description": "Experience luxury and comfort in the heart of the city. Book your stay today and create unforgettable memories.",
+    "badge": "Short-Term Rental - Paso de los Libres",
+    "title": "Your ideal space, brand new",
+    "description": "A beautiful central studio apartment equipped to give you the best rest. 1 double bed and 3 single beds.",
     "cta": "Book Now",
-    "reviews": "from 200+ reviews"
+    "reviews": "Featured Host: Marcela"
   },
   "Features": {
     "badge": "Amenities",
-    "title": "Everything you need",
-    "description": "We've thoughtfully designed every detail to ensure you have a comfortable and memorable stay.",
+    "title": "Everything for your comfort",
+    "description": "We thought of every detail for your stay for up to 5 guests.",
     "items": {
-      "wifi": { "title": "High-Speed WiFi", "description": "Stay connected with our premium 500Mbps fiber internet connection." },
-      "kitchen": { "title": "Full Kitchen", "description": "Fully equipped with modern appliances and everything you need." },
-      "ac": { "title": "Air Conditioning", "description": "Individual climate control in every room for your comfort." },
-      "parking": { "title": "Free Parking", "description": "Secure, off-street parking available during your entire stay." },
-      "pool": { "title": "Swimming Pool", "description": "Access to our pristine swimming pool and lounge area." },
-      "workspace": { "title": "Workspace", "description": "Dedicated desk and ergonomic chair for remote workers." }
+      "wifi": {
+        "title": "WiFi",
+        "description": "Fast and stable internet connection."
+      },
+      "ac": {
+        "title": "Air Conditioning",
+        "description": "Perfect climate control at all times."
+      },
+      "parking": {
+        "title": "Included Garage",
+        "description": "Safe spot for your vehicle."
+      },
+      "tv": {
+        "title": "TV",
+        "description": "Television for your entertainment."
+      },
+      "kitchenette": {
+        "title": "Kitchenette",
+        "description": "Includes a microwave, minibar and electric kettle."
+      },
+      "dining": {
+        "title": "Dining Table",
+        "description": "Comfortable seating and space for up to 5 people at the same time and essential dinnerware."
+      }
     }
   },
   "Gallery": {
     "badge": "Gallery",
-    "title": "Take a tour",
-    "description": "Explore the beautiful spaces designed for your comfort and relaxation."
+    "title": "Take a look inside",
+    "description": "We invite you to see our facilities, everything is brand new and spotless.",
+    "seeMore": "See more images"
   },
   "Testimonials": {
     "title": "What our guests say",
-    "description": "Read about the experiences of people who have stayed with us."
+    "description": "Real experiences from those who chose us on Airbnb.",
+    "review1": "\"Excellent host, the apartment is very nice and in a very convenient location.\"",
+    "review2": "\"Beautiful place, everything is brand new and spotless... it has a garage and is close to the center.\""
   },
   "Location": {
     "badge": "Location",
-    "title": "Perfectly situated",
-    "description": "Located in a safe, quiet neighborhood just minutes away from top attractions.",
-    "address": "123 Tranquil Lane, Cityville",
+    "title": "Right in the city center",
+    "description": "Just steps from Colón street, in the heart of Paso de los Libres.",
+    "address": "Downtown area, Paso de los Libres, Corrientes",
     "directions": "Get Directions"
   },
   "BookingCTA": {
-    "title": "Ready to book your stay?",
-    "description": "Contact us on WhatsApp to check availability and secure your reservation.",
+    "title": "Ready to book?",
+    "description": "Contact Marcela via WhatsApp, fast response guaranteed.",
     "cta": "Book via WhatsApp",
-    "whatsappText": "Hello! I'm interested in booking the property."
+    "whatsappText": "Hello Marcela! I'm interested in booking the studio."
   },
   "Footer": {
     "rights": "All rights reserved."

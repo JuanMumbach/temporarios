@@ -1,13 +1,13 @@
-import { Wifi, Utensils, Wind, Car, Droplets, Monitor } from 'lucide-react';
+import { Wifi, Wind, Car, Tv, Coffee, Utensils } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 
 const featureKeys = [
   { key: 'wifi', icon: Wifi },
-  { key: 'kitchen', icon: Utensils },
   { key: 'ac', icon: Wind },
   { key: 'parking', icon: Car },
-  { key: 'pool', icon: Droplets },
-  { key: 'workspace', icon: Monitor },
+  { key: 'tv', icon: Tv },
+  { key: 'kitchenette', icon: Coffee },
+  { key: 'dining', icon: Utensils },
 ] as const;
 
 export function Features() {

@@ -1,49 +1,70 @@
 {
   "Metadata": {
-    "title": "Alquiler Temporario Premium",
-    "description": "Disfruta de una estadía inolvidable en nuestro alojamiento por día. Excelente ubicación, comodidades modernas y confort garantizado."
+    "title": "Monoambiente Impecable en Paso de los Libres",
+    "description": "Alojamiento nuevo para hasta 5 personas en el centro de Paso de los Libres. Cochera, Aire Acondicionado y Wifi."
   },
   "Hero": {
-    "badge": "Alquiler Temporario Premium",
-    "title": "Tu refugio perfecto te espera",
-    "description": "Experimenta el lujo y la comodidad en el corazón de la ciudad. Reserva hoy y crea recuerdos inolvidables.",
+    "badge": "Alquiler Temporario - Paso de los Libres",
+    "title": "Tu espacio ideal, nuevo e impecable",
+    "description": "Un hermoso monoambiente céntrico equipado para brindarte el mejor descanso. 1 cama matrimonial y 3 camas individuales.",
     "cta": "Reservar Ahora",
-    "reviews": "de más de 200 reseñas"
+    "reviews": "Anfitriona destacada: Marcela"
   },
   "Features": {
     "badge": "Comodidades",
-    "title": "Todo lo que necesitas",
-    "description": "Hemos diseñado cuidadosamente cada detalle para asegurar que tengas una estadía cómoda y memorable.",
+    "title": "Todo para tu confort",
+    "description": "Pensamos en cada detalle para tu estadía de hasta 5 personas.",
     "items": {
-      "wifi": { "title": "WiFi de Alta Velocidad", "description": "Mantente conectado con nuestra conexión de fibra de 500Mbps." },
-      "kitchen": { "title": "Cocina Completa", "description": "Totalmente equipada con electrodomésticos modernos para vos." },
-      "ac": { "title": "Aire Acondicionado", "description": "Control individual de aire acondicionado para tu confort." },
-      "parking": { "title": "Estacionamiento Gratis", "description": "Estacionamiento seguro en el edificio durante toda tu estadía." },
-      "pool": { "title": "Piscina", "description": "Acceso a nuestra increíble piscina y área de relajación." },
-      "workspace": { "title": "Puesto de Trabajo", "description": "Escritorio y silla ergonómica para trabajar remotamente." }
+      "wifi": {
+        "title": "WiFi",
+        "description": "Conexión a internet estable y rápida."
+      },
+      "ac": {
+        "title": "Aire Acondicionado",
+        "description": "Climatización perfecta en todo momento."
+      },
+      "parking": {
+        "title": "Cochera Incluida",
+        "description": "Lugar seguro para tu vehículo."
+      },
+      "tv": {
+        "title": "TV",
+        "description": "Televisión para tu entretenimiento."
+      },
+      "kitchenette": {
+        "title": "Mini Cocina",
+        "description": "Equipada con microondas, frigobar y pava eléctrica."
+      },
+      "dining": {
+        "title": "Mesa de Comedor",
+        "description": "Comodidad para comer hasta 5 personas juntas y utensilios de cocina."
+      }
     }
   },
   "Gallery": {
     "badge": "Galería",
-    "title": "Demos un paseo",
-    "description": "Explora los hermosos espacios diseñados para tu confort y relajación."
+    "title": "Conocé el monoambiente",
+    "description": "Te invitamos a ver nuestras instalaciones, todo nuevo e impecable.",
+    "seeMore": "Ver más fotos"
   },
   "Testimonials": {
     "title": "Qué dicen nuestros huéspedes",
-    "description": "Lee acerca de las experiencias de quienes se alojaron con nosotros."
+    "description": "Experiencias reales de quienes ya nos eligieron en Airbnb.",
+    "review1": "\"Excelente anfitriona, el departamento es muy lindo y esta en una ubicación muy conveniente.\"",
+    "review2": "\"Hermoso lugar, todo impecable a estrenar... cuenta con cochera y está cerquita del centro.\""
   },
   "Location": {
     "badge": "Ubicación",
-    "title": "Alojamiento céntrico",
-    "description": "Ubicado en un vecindario seguro y tranquilo, a solo unos minutos de las principales atracciones.",
-    "address": "123 Tranquil Lane, Cityville",
-    "directions": "Ver Direcciones"
+    "title": "Pleno centro de la ciudad",
+    "description": "A metros de calle Colón, en el corazón de Paso de los Libres.",
+    "address": "Zona Centro, Paso de los Libres, Corrientes",
+    "directions": "Ver Ubicación"
   },
   "BookingCTA": {
-    "title": "¿Listo para reservar?",
-    "description": "Contáctanos por WhatsApp para consultar disponibilidad y asegurar tu reserva.",
+    "title": "¿Consultas o reservas?",
+    "description": "Contactá a Marcela por WhatsApp, te responderemos a la brevedad.",
     "cta": "Reservar por WhatsApp",
-    "whatsappText": "¡Hola! Estoy interesado en hospedarte."
+    "whatsappText": "¡Hola Marcela! Quisiera consultar por el temporario."
   },
   "Footer": {
     "rights": "Todos los derechos reservados."
