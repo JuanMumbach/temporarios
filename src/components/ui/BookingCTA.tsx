@@ -1,6 +1,6 @@
 'use client';
 
-import { usePostHog } from 'posthog-js/react';
+import posthog from 'posthog-js';
 import { MessageCircle } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
@@ -11,11 +11,9 @@ interface BookingCTAProps extends React.ButtonHTMLAttributes<HTMLButtonElement> 
 }
 
 export function BookingCTA({ className, phoneNumber, message = "Hi! I'm interested in booking a stay.", ...props }: BookingCTAProps) {
-  const posthog = usePostHog();
-
   const handleBookingClick = () => {
     // 1. Track the event in PostHog
-    posthog?.capture('whatsapp_booking_click', {
+    posthog.capture('whatsapp_booking_click', {
       method: 'whatsapp',
       timestamp: new Date().toISOString()
     });
