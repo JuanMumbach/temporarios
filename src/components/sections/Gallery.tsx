@@ -1,8 +1,10 @@
 'use client';
 
 import posthog from 'posthog-js';
+import { useTranslations } from 'next-intl';
 
 export function Gallery() {
+  const t = useTranslations('Gallery');
   const images = [
     "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
     "https://images.unsplash.com/photo-1502672260266-1c1de2d9d00c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
@@ -18,9 +20,11 @@ export function Gallery() {
   };
 
   return (
-    <section className="py-24 bg-white">
+    <section className="py-24 bg-white text-center">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl md:text-4xl font-semibold tracking-tight text-center mb-12">Take a tour</h2>
+        <span className="text-sm font-semibold text-stone-500 uppercase tracking-wider mb-2 block">{t('badge')}</span>
+        <h2 className="text-3xl md:text-4xl font-semibold tracking-tight mb-4">{t('title')}</h2>
+        <p className="text-stone-500 max-w-2xl mx-auto mb-12">{t('description')}</p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {images.map((src, idx) => (
             <div

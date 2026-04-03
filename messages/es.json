@@ -1,0 +1,51 @@
+{
+  "Metadata": {
+    "title": "Alquiler Temporario Premium",
+    "description": "Disfruta de una estadía inolvidable en nuestro alojamiento por día. Excelente ubicación, comodidades modernas y confort garantizado."
+  },
+  "Hero": {
+    "badge": "Alquiler Temporario Premium",
+    "title": "Tu refugio perfecto te espera",
+    "description": "Experimenta el lujo y la comodidad en el corazón de la ciudad. Reserva hoy y crea recuerdos inolvidables.",
+    "cta": "Reservar Ahora",
+    "reviews": "de más de 200 reseñas"
+  },
+  "Features": {
+    "badge": "Comodidades",
+    "title": "Todo lo que necesitas",
+    "description": "Hemos diseñado cuidadosamente cada detalle para asegurar que tengas una estadía cómoda y memorable.",
+    "items": {
+      "wifi": { "title": "WiFi de Alta Velocidad", "description": "Mantente conectado con nuestra conexión de fibra de 500Mbps." },
+      "kitchen": { "title": "Cocina Completa", "description": "Totalmente equipada con electrodomésticos modernos para vos." },
+      "ac": { "title": "Aire Acondicionado", "description": "Control individual de aire acondicionado para tu confort." },
+      "parking": { "title": "Estacionamiento Gratis", "description": "Estacionamiento seguro en el edificio durante toda tu estadía." },
+      "pool": { "title": "Piscina", "description": "Acceso a nuestra increíble piscina y área de relajación." },
+      "workspace": { "title": "Puesto de Trabajo", "description": "Escritorio y silla ergonómica para trabajar remotamente." }
+    }
+  },
+  "Gallery": {
+    "badge": "Galería",
+    "title": "Demos un paseo",
+    "description": "Explora los hermosos espacios diseñados para tu confort y relajación."
+  },
+  "Testimonials": {
+    "title": "Qué dicen nuestros huéspedes",
+    "description": "Lee acerca de las experiencias de quienes se alojaron con nosotros."
+  },
+  "Location": {
+    "badge": "Ubicación",
+    "title": "Alojamiento céntrico",
+    "description": "Ubicado en un vecindario seguro y tranquilo, a solo unos minutos de las principales atracciones.",
+    "address": "123 Tranquil Lane, Cityville",
+    "directions": "Ver Direcciones"
+  },
+  "BookingCTA": {
+    "title": "¿Listo para reservar?",
+    "description": "Contáctanos por WhatsApp para consultar disponibilidad y asegurar tu reserva.",
+    "cta": "Reservar por WhatsApp",
+    "whatsappText": "¡Hola! Estoy interesado en hospedarte."
+  },
+  "Footer": {
+    "rights": "Todos los derechos reservados."
+  }
+}

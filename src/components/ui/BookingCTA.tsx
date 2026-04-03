@@ -3,14 +3,17 @@
 import posthog from 'posthog-js';
 import { MessageCircle } from 'lucide-react';
 import { cn } from '@/lib/utils';
+import { useTranslations } from 'next-intl';
 
 interface BookingCTAProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   className?: string;
   phoneNumber: string;
-  message?: string;
 }
 
-export function BookingCTA({ className, phoneNumber, message = "Hi! I'm interested in booking a stay.", ...props }: BookingCTAProps) {
+export function BookingCTA({ className, phoneNumber, ...props }: BookingCTAProps) {
+  const t = useTranslations('BookingCTA');
+  const message = t('whatsappText');
+
   const handleBookingClick = () => {
     // 1. Track the event in PostHog
     posthog.capture('whatsapp_booking_click', {
@@ -38,7 +41,7 @@ export function BookingCTA({ className, phoneNumber, message = "Hi! I'm interest
       {...props}
     >
       <MessageCircle className="w-5 h-5" />
-      Book via WhatsApp
+      {t('cta')}
     </button>
   );
 }

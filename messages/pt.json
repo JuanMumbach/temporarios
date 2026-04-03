@@ -1,0 +1,51 @@
+{
+  "Metadata": {
+    "title": "Aluguel por Temporada Premium",
+    "description": "Desfrute de uma estadia inesquecível em nossa hospedagem de luxo. Excelente localização, comodidades modernas e conforto garantido."
+  },
+  "Hero": {
+    "badge": "Aluguel por Temporada",
+    "title": "Seu refúgio perfeito te espera",
+    "description": "Experimente o luxo e conforto no coração da cidade. Reserve hoje e crie memórias inesquecíveis.",
+    "cta": "Reservar Agora",
+    "reviews": "de mais de 200 avaliações"
+  },
+  "Features": {
+    "badge": "Comodidades",
+    "title": "Tudo que você precisa",
+    "description": "Projetamos cuidadosamente cada detalhe para garantir que você tenha uma estadia confortável e memorável.",
+    "items": {
+      "wifi": { "title": "WiFi de Alta Velocidade", "description": "Fique conectado com nossa conexão de fibra de 500Mbps." },
+      "kitchen": { "title": "Cozinha Completa", "description": "Totalmente equipada com eletrodomésticos modernos." },
+      "ac": { "title": "Ar Condicionado", "description": "Controle individual de clima em cada quarto." },
+      "parking": { "title": "Estacionamento Grátis", "description": "Estacionamento seguro disponível durante toda a sua estadia." },
+      "pool": { "title": "Piscina", "description": "Acesso à nossa incrível piscina e área de descanso." },
+      "workspace": { "title": "Espaço de Trabalho", "description": "Mesa e cadeira ergonômica para trabalhar remotamente." }
+    }
+  },
+  "Gallery": {
+    "badge": "Galeria",
+    "title": "Faça um tour",
+    "description": "Explore os belos espaços projetados para seu conforto e relaxamento."
+  },
+  "Testimonials": {
+    "title": "O que nossos hóspedes dizem",
+    "description": "Leia sobre as experiências de pessoas que ficaram conosco."
+  },
+  "Location": {
+    "badge": "Localização",
+    "title": "Hospedagem perfeita",
+    "description": "Localizado em um bairro seguro e tranquilo, a poucos minutos das principais atrações.",
+    "address": "123 Tranquil Lane, Cityville",
+    "directions": "Ver Rota"
+  },
+  "BookingCTA": {
+    "title": "Pronto para reservar?",
+    "description": "Contate-nos pelo WhatsApp para verificar a disponibilidade e garantir sua reserva.",
+    "cta": "Reservar via WhatsApp",
+    "whatsappText": "Olá! Estou interessado em me hospedar."
+  },
+  "Footer": {
+    "rights": "Todos os direitos reservados."
+  }
+}

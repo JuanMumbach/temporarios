@@ -1,6 +1,8 @@
 import { Star } from 'lucide-react';
+import { useTranslations } from 'next-intl';
 
 export function Testimonials() {
+  const t = useTranslations('Testimonials');
   const reviews = [
     {
       name: "Sarah Jenkins",
@@ -23,7 +25,8 @@ export function Testimonials() {
     <section className="py-24 bg-white">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-semibold tracking-tight mb-4">What our guests say</h2>
+          <h2 className="text-3xl md:text-4xl font-semibold tracking-tight mb-4">{t('title')}</h2>
+          <p className="text-stone-500 max-w-2xl mx-auto mb-6">{t('description')}</p>
           <div className="flex justify-center items-center gap-2 text-lg font-medium text-stone-900">
             <Star className="w-5 h-5 fill-current text-stone-900" />
             <span>4.96</span>

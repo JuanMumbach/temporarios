@@ -3,13 +3,24 @@ import { Features } from '@/components/sections/Features';
 import { Gallery } from '@/components/sections/Gallery';
 import { Location } from '@/components/sections/Location';
 import { Testimonials } from '@/components/sections/Testimonials';
+import { getTranslations } from 'next-intl/server';
+import { setRequestLocale } from 'next-intl/server';
 
-export default function Home() {
+export default async function Home({
+  params
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  setRequestLocale(locale);
+  const t = await getTranslations('Metadata');
+  const tFooter = await getTranslations('Footer');
+
   const structuredData = {
     '@context': 'https://schema.org',
     '@type': 'LodgingBusiness',
-    name: 'Luxury Retreat',
-    description: 'Experience an unforgettable stay at our premium short-term rental. Perfect location, modern amenities, and comfort guaranteed.',
+    name: t('title'),
+    description: t('description'),
     image: 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80',
     address: {
       '@type': 'PostalAddress',
@@ -44,7 +55,7 @@ export default function Home() {
       
       {/* Footer */}
       <footer className="py-8 bg-stone-900 text-stone-400 text-center text-sm">
-        <p>&copy; {new Date().getFullYear()} Luxury Retreat. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} Luxury Retreat. {tFooter('rights')}</p>
       </footer>
     </main>
   );

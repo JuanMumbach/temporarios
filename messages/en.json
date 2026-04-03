@@ -1,0 +1,51 @@
+{
+  "Metadata": {
+    "title": "Luxury Retreat - Premium Short-Term Rental",
+    "description": "Experience an unforgettable stay at our premium short-term rental. Perfect location, modern amenities, and comfort guaranteed."
+  },
+  "Hero": {
+    "badge": "Premium Short-Term Rental",
+    "title": "Your perfect getaway awaits",
+    "description": "Experience luxury and comfort in the heart of the city. Book your stay today and create unforgettable memories.",
+    "cta": "Book Now",
+    "reviews": "from 200+ reviews"
+  },
+  "Features": {
+    "badge": "Amenities",
+    "title": "Everything you need",
+    "description": "We've thoughtfully designed every detail to ensure you have a comfortable and memorable stay.",
+    "items": {
+      "wifi": { "title": "High-Speed WiFi", "description": "Stay connected with our premium 500Mbps fiber internet connection." },
+      "kitchen": { "title": "Full Kitchen", "description": "Fully equipped with modern appliances and everything you need." },
+      "ac": { "title": "Air Conditioning", "description": "Individual climate control in every room for your comfort." },
+      "parking": { "title": "Free Parking", "description": "Secure, off-street parking available during your entire stay." },
+      "pool": { "title": "Swimming Pool", "description": "Access to our pristine swimming pool and lounge area." },
+      "workspace": { "title": "Workspace", "description": "Dedicated desk and ergonomic chair for remote workers." }
+    }
+  },
+  "Gallery": {
+    "badge": "Gallery",
+    "title": "Take a tour",
+    "description": "Explore the beautiful spaces designed for your comfort and relaxation."
+  },
+  "Testimonials": {
+    "title": "What our guests say",
+    "description": "Read about the experiences of people who have stayed with us."
+  },
+  "Location": {
+    "badge": "Location",
+    "title": "Perfectly situated",
+    "description": "Located in a safe, quiet neighborhood just minutes away from top attractions.",
+    "address": "123 Tranquil Lane, Cityville",
+    "directions": "Get Directions"
+  },
+  "BookingCTA": {
+    "title": "Ready to book your stay?",
+    "description": "Contact us on WhatsApp to check availability and secure your reservation.",
+    "cta": "Book via WhatsApp",
+    "whatsappText": "Hello! I'm interested in booking the property."
+  },
+  "Footer": {
+    "rights": "All rights reserved."
+  }
+}
