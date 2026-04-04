@@ -7,10 +7,9 @@ import { useTranslations } from 'next-intl';
 
 interface BookingCTAProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   className?: string;
-  phoneNumber: string;
 }
 
-export function BookingCTA({ className, phoneNumber, ...props }: BookingCTAProps) {
+export function BookingCTA({ className, ...props }: BookingCTAProps) {
   const t = useTranslations('BookingCTA');
   const message = t('whatsappText');
 
@@ -21,13 +20,23 @@ export function BookingCTA({ className, phoneNumber, ...props }: BookingCTAProps
       timestamp: new Date().toISOString()
     });
 
-    // 2. Format WhatsApp URL
-    // Remove any non-numeric characters from the phone number
-    const cleanPhone = phoneNumber.replace(/\D/g, '');
-    const encodedMessage = encodeURIComponent(message);
-    const whatsappUrl = `https://wa.me/${cleanPhone}?text=${encodedMessage}`;
+    // 2. Retrieve and Decode WhatsApp Number
+    const encoded = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '';
+    
+    // Obfuscation: Decode the base64 string on click
+    let phoneNumber = '';
+    try {
+      phoneNumber = atob(encoded).replace(/\D/g, '');
+    } catch (e) {
+      console.error('Error decoding phone number:', e);
+      return;
+    }
 
-    // 3. Open WhatsApp in new tab
+    // 3. Format WhatsApp URL
+    const encodedMessage = encodeURIComponent(message);
+    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
+
+    // 4. Open WhatsApp in new tab
     window.open(whatsappUrl, '_blank');
   };
 

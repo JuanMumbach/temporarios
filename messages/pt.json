@@ -1,14 +1,14 @@
 {
   "Metadata": {
-    "title": "Alojamento Impecável em Paso de los Libres",
-    "description": "Acomodação nova para até 5 pessoas no centro de Paso de los Libres. Garagem, Ar Condicionado e Wifi."
+    "title": "Hospedagem Impecável em Paso de los Libres",
+    "description": "Acomodação nova para até 5 pessoas no centro de Paso de los Libres. Garagem, Ar-condicionado e Wi-Fi."
   },
   "Hero": {
     "badge": "Aluguel por Temporada - Paso de los Libres",
     "title": "Seu espaço ideal, novo e impecável",
-    "description": "Um lindo estúdio (monoambiente) central equipado para lhe dar o melhor descanso. 1 cama de casal e 3 camas de solteiro.",
+    "description": "Um lindo estúdio central equipado para lhe proporcionar o melhor descanso. 1 cama de casal e 3 camas de solteiro.",
     "cta": "Reservar Agora",
-    "reviews": "Anfitriã destaque: Marcela"
+    "reviews": "Anfitriã de destaque: Marcela"
   },
   "Features": {
     "badge": "Comodidades",
@@ -16,11 +16,11 @@
     "description": "Pensamos em cada detalhe para a sua estadia de até 5 pessoas.",
     "items": {
       "wifi": {
-        "title": "WiFi",
+        "title": "Wi-Fi",
         "description": "Conexão de internet rápida e estável."
       },
       "ac": {
-        "title": "Ar Condicionado",
+        "title": "Ar-condicionado",
         "description": "Climatização perfeita a todo momento."
       },
       "parking": {
@@ -29,7 +29,7 @@
       },
       "tv": {
         "title": "TV",
-        "description": "Televisão para o seu entretenimento."
+        "description": "Televisão para seu entretenimento."
       },
       "kitchenette": {
         "title": "Cozinha Compacta",
@@ -37,34 +37,34 @@
       },
       "dining": {
         "title": "Mesa de Jantar",
-        "description": "Espaço confortável para até 5 pessoas comerem juntas e utensílios básicos."
+        "description": "Espaço confortável para até 5 pessoas comerem juntas, com utensílios básicos."
       }
     }
   },
   "Gallery": {
     "badge": "Galeria",
     "title": "Conheça o estúdio",
-    "description": "Convidamos você a ver as nossas instalações, tudo novo e impecável.",
-    "seeMore": "Ver mais imagens"
+    "description": "Convidamos você a conhecer nossas instalações, tudo novo e impecável.",
+    "seeMore": "Ver mais fotos"
   },
   "Testimonials": {
-    "title": "O que os nossos hóspedes dizem",
+    "title": "O que nossos hóspedes dizem",
     "description": "Experiências reais de quem já nos escolheu no Airbnb.",
-    "review1": "\"Excelente anfitriã, o apartamento é muito bonito e em uma localização muito conveniente.\"",
+    "review1": "\"Excelente anfitriã, o apartamento é muito bonito e com uma localização muito conveniente.\"",
     "review2": "\"Lugar lindo, tudo impecável e novo... tem garagem e fica pertinho do centro.\""
   },
   "Location": {
     "badge": "Localização",
-    "title": "Pleno centro da cidade",
+    "title": "Bem no centro da cidade",
     "description": "A poucos metros da rua Colón, no coração de Paso de los Libres.",
     "address": "Zona Centro, Paso de los Libres, Corrientes",
-    "directions": "Ver Localização"
+    "directions": "Ver localização"
   },
   "BookingCTA": {
     "title": "Dúvidas ou reservas?",
-    "description": "Contate a Marcela pelo WhatsApp, responderemos o mais breve possível.",
+    "description": "Entre em contato com a Marcela pelo WhatsApp, responderemos o mais rápido possível.",
     "cta": "Reservar via WhatsApp",
-    "whatsappText": "Olá Marcela! Gostaria de consultar sobre o estúdio."
+    "whatsappText": "Olá! Gostaria de saber mais sobre o estúdio."
   },
   "Footer": {
     "rights": "Todos os direitos reservados."
