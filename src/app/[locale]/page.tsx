@@ -46,16 +46,16 @@ export default async function Home({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
-      
+
       <Hero />
       <Features />
       <Gallery />
       <Testimonials />
       <Location />
-      
+
       {/* Footer */}
       <footer className="py-8 bg-stone-900 text-stone-400 text-center text-sm">
-        <p>&copy; {new Date().getFullYear()} Luxury Retreat. {tFooter('rights')}</p>
+        <p className="text-center">{tFooter('rightsPrefix')} <a href="https://www.linkedin.com/in/juanmumbach" className="text-stone-300 hover:underline">Juan Mumbach</a> {tFooter('rightsSuffix')}. {new Date().getFullYear()}.</p>
       </footer>
     </main>
   );

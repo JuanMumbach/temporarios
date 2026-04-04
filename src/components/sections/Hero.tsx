@@ -12,10 +12,10 @@ export function Hero() {
       {/* Background Image */}
       <div className="absolute inset-0 bg-stone-900 z-0">
         <div className="absolute inset-0 bg-gradient-to-t from-stone-900/80 to-transparent z-10" />
-        <img 
-          src="/images/hero.png" 
-          alt="Luxury Villa" 
-          className="w-full h-full object-cover opacity-80"
+        <img
+          src="/images/hero.png"
+          alt="Luxury Villa"
+          className="w-full h-full object-cover"
         />
       </div>
 
@@ -30,15 +30,15 @@ export function Hero() {
         />
 
         <motion.div
-           initial={{ opacity: 0, scale: 0.9 }}
-           animate={{ opacity: 1, scale: 1 }}
-           transition={{ duration: 0.5, delay: 0.1 }}
-           className="inline-block bg-brand/90 backdrop-blur-md px-4 py-2 rounded-full text-white text-sm font-medium mb-4"
+          initial={{ opacity: 0, scale: 0.9 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.5, delay: 0.1 }}
+          className="inline-block bg-brand/90 backdrop-blur-md px-4 py-2 rounded-full text-white text-sm font-medium mb-4"
         >
           {t('badge')}
         </motion.div>
 
-        <motion.h1 
+        <motion.h1
           className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight text-white mb-4"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -46,8 +46,8 @@ export function Hero() {
         >
           {t('title')}
         </motion.h1>
-        
-        <motion.p 
+
+        <motion.p
           className="text-base md:text-xl text-stone-200 mb-6 max-w-2xl mx-auto"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -55,11 +55,11 @@ export function Hero() {
         >
           {t('description')}
         </motion.p>
-        
+
         <motion.div
-           initial={{ opacity: 0, y: 20 }}
-           animate={{ opacity: 1, y: 0 }}
-           transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}
         >
           <BookingCTA />
           <p className="mt-4 text-stone-300 text-sm">{t('reviews')}</p>

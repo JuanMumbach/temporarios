@@ -64,7 +64,7 @@ export function Gallery() {
           <div className="mt-8">
             <button
               onClick={() => handleImageClick(0)}
-              className="inline-flex items-center justify-center px-6 py-3 border border-stone-700 shadow-sm text-base font-medium rounded-md text-stone-200 bg-stone-800 hover:bg-stone-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-stone-500 transition-colors"
+              className="inline-flex items-center justify-center px-6 py-3 border border-stone-700 shadow-sm text-base font-medium rounded-md text-stone-200 bg-stone-800 hover:bg-stone-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-stone-500 transition-colors cursor-pointer"
             >
               {t('seeMore')} ({images.length})
             </button>
@@ -82,21 +82,21 @@ export function Gallery() {
             onClick={() => setSelectedIndex(null)}
           >
             <button
-              className="absolute top-4 right-4 p-2 text-white/70 hover:text-white transition-colors"
+              className="absolute top-4 right-4 p-2 text-white/70 hover:text-white transition-colors cursor-pointer"
               onClick={() => setSelectedIndex(null)}
             >
               <X className="w-8 h-8" />
             </button>
 
             <button
-              className="absolute left-4 top-1/2 -translate-y-1/2 p-2 text-white/70 hover:text-white transition-colors z-10"
+              className="absolute left-4 top-1/2 -translate-y-1/2 p-2 text-white/70 hover:text-white transition-colors z-10 cursor-pointer"
               onClick={handlePrev}
             >
               <ChevronLeft className="w-10 h-10" />
             </button>
 
             <button
-              className="absolute right-4 top-1/2 -translate-y-1/2 p-2 text-white/70 hover:text-white transition-colors z-10"
+              className="absolute right-4 top-1/2 -translate-y-1/2 p-2 text-white/70 hover:text-white transition-colors z-10 cursor-pointer"
               onClick={handleNext}
             >
               <ChevronRight className="w-10 h-10" />

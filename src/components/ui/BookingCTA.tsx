@@ -44,7 +44,7 @@ export function BookingCTA({ className, ...props }: BookingCTAProps) {
     <button
       onClick={handleBookingClick}
       className={cn(
-        "inline-flex items-center justify-center gap-2 px-8 py-4 text-base font-semibold text-white transition-all bg-brand rounded-full hover:bg-brand-light focus:ring-4 focus:ring-stone-200 focus:outline-none",
+        "inline-flex items-center justify-center gap-2 px-8 py-4 text-base font-semibold text-white transition-all bg-brand rounded-full hover:bg-brand-light focus:ring-4 focus:ring-stone-200 focus:outline-none cursor-pointer",
         className
       )}
       {...props}
