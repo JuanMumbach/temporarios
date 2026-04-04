@@ -16,9 +16,9 @@ export function Features() {
   return (
     <section className="py-24 px-4 max-w-6xl mx-auto">
       <div className="mb-16 text-center">
-        <span className="text-sm font-semibold text-stone-500 uppercase tracking-wider mb-2 block">{t('badge')}</span>
+        <span className="text-sm font-semibold text-stone-400 uppercase tracking-wider mb-2 block">{t('badge')}</span>
         <h2 className="text-3xl md:text-4xl font-semibold tracking-tight mb-4">{t('title')}</h2>
-        <p className="text-stone-500 max-w-2xl mx-auto">
+        <p className="text-stone-400 max-w-2xl mx-auto">
           {t('description')}
         </p>
       </div>
@@ -28,11 +28,11 @@ export function Features() {
           const Icon = feature.icon;
           return (
             <div key={i} className="flex flex-col items-center text-center group">
-              <div className="w-16 h-16 rounded-full bg-stone-100 flex items-center justify-center mb-4 transition-colors group-hover:bg-stone-200">
-                <Icon className="w-7 h-7 text-stone-700" />
+              <div className="w-16 h-16 rounded-full bg-brand/10 flex items-center justify-center mb-4 transition-colors group-hover:bg-brand/20">
+                <Icon className="w-7 h-7 text-brand" />
               </div>
-              <h3 className="font-medium text-stone-900 mb-2">{t(`items.${feature.key}.title`)}</h3>
-              <p className="text-sm text-stone-500">{t(`items.${feature.key}.description`)}</p>
+              <h3 className="font-medium text-stone-100 mb-2">{t(`items.${feature.key}.title`)}</h3>
+              <p className="text-sm text-stone-400">{t(`items.${feature.key}.description`)}</p>
             </div>
           );
         })}

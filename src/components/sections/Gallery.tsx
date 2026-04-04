@@ -37,17 +37,17 @@ export function Gallery() {
   const visibleImages = images.slice(0, 4);
 
   return (
-    <section className="py-24 bg-white text-center flex flex-col items-center">
+    <section className="py-24 bg-stone-900 text-center flex flex-col items-center">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
-        <span className="text-sm font-semibold text-stone-500 uppercase tracking-wider mb-2 block">{t('badge')}</span>
-        <h2 className="text-3xl md:text-4xl font-semibold tracking-tight mb-4">{t('title')}</h2>
-        <p className="text-stone-500 max-w-2xl mx-auto mb-12">{t('description')}</p>
+        <span className="text-sm font-semibold text-stone-400 uppercase tracking-wider mb-2 block">{t('badge')}</span>
+        <h2 className="text-3xl md:text-4xl font-semibold tracking-tight text-white mb-4">{t('title')}</h2>
+        <p className="text-stone-400 max-w-2xl mx-auto mb-12">{t('description')}</p>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {visibleImages.map((src, idx) => (
             <div
               key={idx}
-              className="relative aspect-[4/3] rounded-xl overflow-hidden bg-stone-100 cursor-pointer group"
+              className="relative aspect-[4/3] rounded-xl overflow-hidden bg-stone-800 cursor-pointer group"
               onClick={() => handleImageClick(idx)}
             >
               <img
@@ -64,7 +64,7 @@ export function Gallery() {
           <div className="mt-8">
             <button
               onClick={() => handleImageClick(0)}
-              className="inline-flex items-center justify-center px-6 py-3 border border-stone-300 shadow-sm text-base font-medium rounded-md text-stone-700 bg-white hover:bg-stone-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-stone-500 transition-colors"
+              className="inline-flex items-center justify-center px-6 py-3 border border-stone-700 shadow-sm text-base font-medium rounded-md text-stone-200 bg-stone-800 hover:bg-stone-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-stone-500 transition-colors"
             >
               {t('seeMore')} ({images.length})
             </button>
