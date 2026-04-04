@@ -33,7 +33,7 @@ export function LanguageSelector() {
         <button
           onClick={() => setIsOpen(!isOpen)}
           disabled={isPending}
-          className="flex items-center gap-2 px-3 py-2 bg-white/90 backdrop-blur-md rounded-full border border-stone-200 shadow-sm hover:shadow-md transition-all text-sm font-medium text-stone-700"
+          className="flex items-center gap-2 px-3 py-2 bg-white/90 backdrop-blur-md rounded-full border border-stone-200 shadow-sm hover:shadow-md transition-all text-sm font-medium text-stone-700 cursor-pointer"
         >
           <Globe className="w-4 h-4 text-stone-500" />
           <span>{locale.toUpperCase()}</span>
@@ -46,7 +46,7 @@ export function LanguageSelector() {
                 key={l.code}
                 onClick={() => onChange(l.code)}
                 className={twMerge(
-                  "px-4 py-2 text-sm text-left rounded-lg transition-colors hover:bg-stone-100",
+                  "px-4 py-2 text-sm text-left rounded-lg transition-colors hover:bg-stone-100 cursor-pointer",
                   locale === l.code && "bg-stone-100 font-semibold text-stone-900"
                 )}
               >
