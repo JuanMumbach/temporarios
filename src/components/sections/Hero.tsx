@@ -61,7 +61,25 @@ export function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}
         >
-          <BookingCTA />
+          <div className="flex flex-wrap gap-4 justify-center">
+            <BookingCTA />
+            <a
+              href="https://www.airbnb.com.ar/rooms/1630776248297824129?guests=1&adults=1&s=67&unique_share_id=4780d836-d736-41a9-b286-303b07d4b265"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center gap-2 px-6 py-2 text-sm font-medium text-white transition-all bg-secondary rounded-full hover:bg-secondary-hover focus:ring-2 focus:ring-stone-200 focus:outline-none cursor-pointer"
+            >
+              ver en Airbnb
+            </a>
+            <a
+              href="https://www.booking.com/Share-D1Mk1T"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center gap-2 px-6 py-2 text-sm font-medium text-white transition-all bg-secondary rounded-full hover:bg-secondary-hover focus:ring-2 focus:ring-stone-200 focus:outline-none cursor-pointer"
+            >
+              ver en Booking.com
+            </a>
+          </div>
           <p className="mt-4 text-stone-300 text-sm">{t('reviews')}</p>
         </motion.div>
       </div>
