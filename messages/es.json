@@ -8,6 +8,8 @@
     "title": "Tu espacio ideal, nuevo e impecable",
     "description": "Un hermoso monoambiente céntrico equipado para brindarte el mejor descanso. 1 cama matrimonial y 3 camas individuales.",
     "cta": "Reservar Ahora",
+    "airbnb": "Ver en Airbnb",
+    "booking": "Ver en Booking.com",
     "reviews": "Anfitriona destacada: Marcela"
   },
   "Features": {
@@ -62,11 +64,12 @@
   },
   "BookingCTA": {
     "title": "¿Consultas o reservas?",
-    "description": "Contactá a Marcela por WhatsApp, te responderemos a la brevedad.",
-    "cta": "Reservar por WhatsApp",
+    "description": "Contactanos por WhatsApp, te responderemos a la brevedad.",
+    "cta": "Consultar disponibilidad",
     "whatsappText": "Hola! Quisiera consultar por el temporario."
   },
   "Footer": {
-    "rights": "Todos los derechos reservados."
+    "rightsPrefix": "OCHO39 Alquiler Temporario. Desarrollado por",
+    "rightsSuffix": ""
   }
 }

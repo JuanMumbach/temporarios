@@ -8,6 +8,8 @@
     "title": "Seu espaço ideal, novo e impecável",
     "description": "Um lindo estúdio central equipado para lhe proporcionar o melhor descanso. 1 cama de casal e 3 camas de solteiro.",
     "cta": "Reservar Agora",
+    "airbnb": "Ver no Airbnb",
+    "booking": "Ver no Booking.com",
     "reviews": "Anfitriã de destaque: Marcela"
   },
   "Features": {
@@ -62,11 +64,12 @@
   },
   "BookingCTA": {
     "title": "Dúvidas ou reservas?",
-    "description": "Entre em contato com a Marcela pelo WhatsApp, responderemos o mais rápido possível.",
-    "cta": "Reservar via WhatsApp",
+    "description": "Entre em contato pelo WhatsApp, responderemos o mais rápido possível.",
+    "cta": "Consultar disponibilidade",
     "whatsappText": "Olá! Gostaria de saber mais sobre o estúdio."
   },
   "Footer": {
-    "rights": "Todos os direitos reservados."
+    "rightsPrefix": "OCHO39 Aluguel Temporário. Desenvolvido por",
+    "rightsSuffix": ""
   }
 }
