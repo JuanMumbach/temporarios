@@ -8,6 +8,8 @@
     "title": "Your ideal space, brand new",
     "description": "A beautiful central studio apartment equipped to give you the best rest. 1 double bed and 3 single beds.",
     "cta": "Book Now",
+    "airbnb": "See on Airbnb",
+    "booking": "See on Booking.com",
     "reviews": "Featured Host: Marcela"
   },
   "Features": {
@@ -63,7 +65,7 @@
   "BookingCTA": {
     "title": "Ready to book?",
     "description": "Contact Marcela via WhatsApp, fast response guaranteed.",
-    "cta": "Book via WhatsApp",
+    "cta": "Check availability",
     "whatsappText": "Hello! I'm interested in booking the studio."
   },
   "Footer": {
