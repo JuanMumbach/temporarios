@@ -10,7 +10,7 @@ export function Gallery() {
   const t = useTranslations('Gallery');
   const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
 
-  const images = Array.from({ length: 9 }, (_, i) => `/images/${i + 1}.png`);
+  const images = Array.from({ length: 9 }, (_, i) => `/images/${i + 1}.webp`);
 
   const handleImageClick = (idx: number) => {
     posthog.capture('gallery_image_clicked', {
