@@ -19,16 +19,15 @@ export function Location() {
                 <MapPin className="w-6 h-6 text-brand mt-1" />
                 <div>
                   <h4 className="font-medium text-stone-100">{t('address')}</h4>
-                  <a href="#" className="text-blue-400 hover:underline">{t('directions')}</a>
                 </div>
               </div>
             </div>
-            
+
             <BookingCTA />
           </div>
-          
+
           <div className="relative aspect-square md:aspect-video lg:aspect-square rounded-2xl overflow-hidden shadow-sm bg-stone-800">
-            <iframe 
+            <iframe
               src="https://maps.google.com/maps?q=-29.714776,-57.089452&hl=es&z=15&output=embed"
               className="w-full h-full border-0"
               allowFullScreen
