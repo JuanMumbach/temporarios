@@ -14,7 +14,7 @@ export function Hero() {
       <div className="absolute inset-0 bg-stone-900 z-0">
         <div className="absolute inset-0 bg-gradient-to-t from-stone-900/80 to-transparent z-10" />
         <img
-          src="/images/hero.png"
+          src="/images/hero.webp"
           alt="Luxury Villa"
           className="w-full h-full object-cover"
         />
@@ -25,7 +25,7 @@ export function Hero() {
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          src="/images/ocho39.png"
+          src="/images/ocho39.webp"
           alt="Ocho39 Logo"
           className="h-32 md:h-48 w-auto mx-auto mb-4 rounded-2xl drop-shadow-lg"
         />
